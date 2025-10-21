@@ -10,7 +10,7 @@ export const NAV_LINKS: NavLink[] = [
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: 'Jane Doe',
+    name: 'Shan',
     role: 'Founder & Director',
     imageUrl: 'https://picsum.photos/seed/person1/400/400',
     bio: 'With a passion for community service, Jane founded Angel Helping Wing to create a bridge between those who have and those who need it most.'
