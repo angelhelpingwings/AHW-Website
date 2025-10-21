@@ -32,7 +32,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   { 
     id: 1, 
-    imageUrl: 'https://i.ibb.co/tMqsnhWt/Monan-sir-sponser-clothes.jpg', 
+    imageUrl: 'https://i.ibb.co/wFKSJc0m/IMG20230624143935.jpg', 
     caption: 'img 1', 
     type: 'image' 
   },    

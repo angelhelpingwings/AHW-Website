@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import PageWrapper from '../components/PageWrapper';
 
 const HeroSection: React.FC = () => (
-    <section className="relative bg-cover bg-center text-white py-32 px-4" style={{ backgroundImage: 'url(https://picsum.photos/seed/hero/1600/800)' }}>
+    <section className="relative bg-cover bg-center text-white py-32 px-24" style={{ backgroundImage: 'url(https://i.ibb.co/LXqbqpbh/IMG-20230907-WA0005.jpg)' }}>
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="container mx-auto text-center relative z-10">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight animate-slideInUp">
