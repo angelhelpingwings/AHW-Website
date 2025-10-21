@@ -1,0 +1,1 @@
+import{r as a,j as s}from"./index-BL9hioUi.js";const o=({title:e,children:r})=>(a.useEffect(()=>{document.title=`${e} | Angel Helping Wing`,window.scrollTo(0,0)},[e]),s.jsx("main",{className:"flex-grow animate-fadeIn",children:r}));export{o as P};
