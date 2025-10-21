@@ -4,11 +4,17 @@ import { Link, NavLink } from 'react-router-dom';
 import { NAV_LINKS } from '../constants';
 
 const Logo = () => (
-    <Link to="/" className="flex items-center space-x-2">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-        </svg>
-        <span className="text-2xl font-bold text-dark-text dark:text-white">Angel Helping Wing</span>
+    <Link to="/" className="flex items-center space-x-3">
+        {/* circular crop wrapper so the image always appears as a circle */}
+        <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0 border-2 border-white dark:border-white shadow-sm">
+            <img
+                src="https://i.ibb.co/Gv3KS9tK/Clear-Logo.png"
+                alt="Angel Helping Wing logo"
+                className="w-full h-full object-cover"  
+            />
+        </div>
+        {/* hide the long title on very small screens to keep the header compact */}
+        <span className="text-2xl font-bold text-dark-text dark:text-white hidden sm:inline">Angel Helping Wing</span>
     </Link>
 );
 

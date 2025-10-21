@@ -30,17 +30,22 @@ export const TEAM_MEMBERS: TeamMember[] = [
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  { id: 1, imageUrl: 'https://picsum.photos/seed/gallery1/600/400', caption: 'Members organizing supplies for a community event.', type: 'image' },
-  { id: 2, imageUrl: 'https://picsum.photos/seed/gallery2/600/400', caption: 'A happy child at one of our outreach programs.', type: 'image' },
-  { id: 3, imageUrl: 'https://picsum.photos/seed/gallery3/600/400', caption: 'Our team at the annual community gathering.', type: 'image' },
-  { id: 4, imageUrl: 'https://picsum.photos/seed/gallery4/600/400', caption: 'Fresh produce being distributed to families.', type: 'image' },
-  { id: 5, imageUrl: 'https://picsum.photos/seed/gallery5/600/400', caption: 'A member delivering care packages.', type: 'image' },
-  { id: 6, imageUrl: 'https://picsum.photos/seed/gallery6/600/400', caption: 'Community members coming together to help.', type: 'image' },
+  { 
+    id: 1, 
+    imageUrl: 'https://i.ibb.co/tMqsnhWt/Monan-sir-sponser-clothes.jpg', 
+    caption: 'img 1', 
+    type: 'image' 
+  },    
+  { id: 2, imageUrl: 'https://i.ibb.co/q3D7VPzX/IMG20231207134228.jpg', caption: 'img 2', type: 'image' },
+  { id: 3, imageUrl: 'https://i.ibb.co/CKqKwyp3/IMG20231109190055.jpg', caption: 'img 3', type: 'image' },
+  { id: 4, imageUrl: 'https://i.ibb.co/Q77bWB8G/IMG-20230907-WA0000.jpg', caption: 'img 4', type: 'image' },
+  { id: 5, imageUrl: 'https://i.ibb.co/GmsVwVc/6-09-23.jpg', caption: 'img 5', type: 'image' },
+  { id: 6, imageUrl: 'https://i.ibb.co/pv4B9VR7/june-month.jpg', caption: 'img 6', type: 'image' },
 ];
 
 export const IMPACT_STATS: Stat[] = [
-    { value: '1,000+', label: 'Families Helped' },
-    { value: '500+', label: 'Community Members' },
+    { value: '150+', label: 'Families Helped' },
+    { value: '100+', label: 'Community Members' },
     { value: '50+', label: 'Events Organized' },
-    { value: '2,000+', label: 'Lives Touched' },
+    { value: '500+', label: 'Lives Touched' },
 ];
